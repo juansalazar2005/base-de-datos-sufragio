@@ -1,0 +1,10 @@
+.fuente{
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+}
+.resena{
+    text-align: justify right;
+}
+#historiaPersonal{
+    text-align: right;
+}
