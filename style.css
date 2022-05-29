@@ -1,13 +1,22 @@
 .fuente{
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
+
 }
+
 .resena{
     text-align: justify right;
 }
+
+#historiaPersonal1{
+    color: #fc5656;
+    text-align: right;
+}
+
 #historiaPersonal{
     text-align: right;
 }
+
 .botonSociales{
     padding: .28rem .66rem;
     font-size: 2rem;
@@ -23,6 +32,7 @@
     background-position: right;
     transition: .12s ease-in-out;
 }
+
 .botonSociales:hover{
     color: white;
     -moz-transition: .12s  ease-out;
@@ -34,11 +44,13 @@
     height: 4rem;
     border-radius: 100%;
 }
+
 footer{
     background-color:#f7a942;
     font-weight: 500;
     font-size: 17px
 }
+
 .btnSearch {
     /* background: transparent; */
     background: linear-gradient(to left, transparent 50%, #f7a942 50%);
@@ -53,7 +65,31 @@ footer{
     color: white;
     transition: linear .12s;
 }
+
 .btnSearch:hover {
     background-position: left;
     transition: ease-in-out .12s;
+    color: black;
+    font-weight: 500;
+}
+
+.tituloMemoria {
+    color: #fc5656 !important;
+}
+
+#section{
+    justify-content: space-between;
+    margin: 4rem;
+}
+
+#navbar-text{
+    text-decoration: none;
+    color: rgb(151, 151, 151);
+    font-weight: 500;
+    font-size: 17px;
+    align-items: center;
+}
+
+#navbar-text:hover{
+    color: #f7a942;
 }
