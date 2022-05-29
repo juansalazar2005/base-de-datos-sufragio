@@ -11,23 +11,24 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="icon" type="image/png" class="img-fluid w-100" href="img/salesianos-logo.png">
 </head>
 <body class="fuente">
-    
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">Navbar</a>
+              <a class="navbar-brand" href="#"><img src="img/colsufragio.jpg" class="logoNavbar" alt=""></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
+                    <a class="nav-link" href="https://pacad.elsufragio.edu.co/" target="blank">Portal académico</a>
                   </li>
                   <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -40,23 +41,20 @@
                       <li><a class="dropdown-item" href="#">Something else here</a></li>
                     </ul>
                   </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled">Disabled</a>
-                  </li>
                 </ul>
                 <form class="d-flex">
                   <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                  <button class="btn btn-outline-success" type="submit">Search</button>
+                  <button class="btnSearch" >Buscar</button>
                 </form>
               </div>
             </div>
           </nav>
     </header>
     <main>
-        <video src="video/y2mate.com - Testimonio  Samuel_1080p.mp4" autoplay muted loop class="w-100"></video>
+        <video src="video/y2mate.com - Soñamos un mundo mejor_1080p.mp4" autoplay muted loop class="w-100"></video>
     </main>
     <section>
-            <div class="container my-4">
+            <div class="container my-5 mx-auto">
                 <div class="row">
                     <div class="col-6 resena">
                         <h1>Reseña histórica</h1>
@@ -78,25 +76,27 @@
         </section>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <footer class="bg-dark p-5 text-white text-center">
+    <footer class="p-5 text-dark text-center">
         <div class="container">
             <div class="row">
                 <div class="col-4">
+                  <!--Icono Instagram-->
+                    <a href="https://www.instagram.com/colsufragio/" target="blank"><button class="botonSociales"><i class="bi bi-instagram"></i></button></a>
+                    <!--Icono Facebook-->
+                    <a href="https://www.facebook.com/colegiosalesianoelsufragio/" target="blank"><button class="botonSociales"><i class="bi bi-facebook"></i></button></button></a>
+                    <!--Icono YouTube-->
+                    <a href="https://www.youtube.com/channel/UC0v1jTEi88CzyrmN2JZc-kA" target="blank"><button class="botonSociales"><i class="bi bi-youtube"></i></button></button></a>
+                </div>
+                <div class="col-4">
+                    <p>&copy; Todos los derechos reservados</p>
                     <p>Juan David Salazar</p>
-                    <p>Medellín</p>
                     <p>2022</p>
+                    <br>
                 </div>
                 <div class="col-4">
-                    <p>Todos los derechos reservados</p>
-                    <p>&copy;</p>
-                    <p>&phone;</p>
-                    <p>&diamond;</p>
-                </div>
-                <div class="col-4">
-                    <p>Camila linda</p>
-                    <p>Medellín</p>
-                    <p>2022</p>
-                </div>
+                  <p>&phone; Teléfono</p>
+                  <p>(+574) 217 4143</p>
+                </div> 
             </div>
         </div>
     </footer>
