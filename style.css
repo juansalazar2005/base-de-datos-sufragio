@@ -1,21 +1,129 @@
+:root{
+    --color-rojo-ppal: #fc5656;
+    --color-naranja-ppal: #f7a942; 
+    --color-dark-ppal: #212529;
+    --color-naranja-transparente: #f7a9420a;
+}
+
+/*--------------------Fuente-------------------------------------*/
+
 .fuente{
-    font-family: 'Quicksand', sans-serif;
+    font-family: "SF Pro Text";
+    src: url(/fuentes/FontsFree-Net-SFProDisplay-Regular.ttf);
     font-weight: 500;
-
+    font-size: 17px;
 }
 
-.resena{
-    text-align: justify right;
+/*------------------------Id reseña------------------------------*/
+
+#tituloHistoriaResena{
+    color: var(--color-rojo-ppal);
+    text-align: left;
+    font-weight: 500;
+    font-size: 3rem;
 }
 
-#historiaPersonal1{
-    color: #fc5656;
+#tituloHistoriaResena::after{
+    content: "";
+    display: block;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: var(--color-naranja-ppal);
+    opacity: .3;
+    position: absolute;
+    top: -68px;
+    left: -53px;
+    overflow: hidden;
+}
+
+#tituloHistoriaResena::before{
+    content: "";
+    display: block;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: var(--color-naranja-ppal);
+    opacity: .3;
+    position: absolute;
+    top: -50px;
+    left: -40px;
+    overflow: hidden;
+}
+
+#tituloHistoriaPersonal::after{
+    content: "";
+    display: block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: var(--color-naranja-ppal);
+    opacity: .3;
+    position: absolute;
+    bottom: 78px;
+    right: -65px;
+    overflow: hidden;
+    
+}
+
+#tituloHistoriaPersonal::before{
+    content: "";
+    display: block;
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: var(--color-naranja-ppal);
+    opacity: .3;
+    position: absolute;
+    bottom: 73px;
+    right: -50px;
+    overflow: hidden;
+    
+}
+
+
+/*-------------------Ids para historia personal------------------*/
+
+#tituloHistoriaPersonal{
+    color: var(--color-rojo-ppal);
+    text-align: right;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+#contenidoHistoriaPersonal{
     text-align: right;
 }
 
-#historiaPersonal{
-    text-align: right;
+/*-----------Overflow de las cols de historia y reseña---------*/
+
+div.col-6.resena.scroll-banner{
+    overflow: hidden;
 }
+
+div.col-6.scroll-banner1{
+    overflow: hidden;
+}
+
+/*---------------------Fondo de los divs de reseña e historia personal------------------------*/
+
+.scroll-banner{
+    background-color: var(--color-naranja-transparente);
+    padding: 5%;
+}
+.scroll-banner1{
+    background-color: var(--color-naranja-transparente);
+    padding: 5%;
+}
+
+/*--------Atributos de la section donde está la reseña e historia personal---------*/
+
+#section{
+    justify-content: space-between;
+    margin: 4rem;
+}
+
+/*------------------Botones redes sociales (FOOTER)---------------*/
 
 .botonSociales{
     padding: .28rem .66rem;
@@ -39,17 +147,16 @@
     -webkit-transition: .12s ease-out;
     transition: .12s linear;
 }
+
+/*---------------------Logo del navbar (Salesianos)--------------------*/
+
 .logoNavbar{
     width: 4rem;
     height: 4rem;
     border-radius: 100%;
 }
 
-footer{
-    background-color:#f7a942;
-    font-weight: 500;
-    font-size: 17px
-}
+/*------------------Botón buscar del navbar----------------------------*/
 
 .btnSearch {
     /* background: transparent; */
@@ -73,14 +180,7 @@ footer{
     font-weight: 500;
 }
 
-.tituloMemoria {
-    color: #fc5656 !important;
-}
-
-#section{
-    justify-content: space-between;
-    margin: 4rem;
-}
+/*------------------------Texto del navbar-------------------------------*/
 
 #navbar-text{
     text-decoration: none;
@@ -91,5 +191,15 @@ footer{
 }
 
 #navbar-text:hover{
-    color: #f7a942;
+    color: var(--color-naranja-ppal);
 }
+
+/*-------------------------Atributos del footer-----------------------*/
+
+footer{
+    background-color: var(--color-naranja-ppal);
+    font-weight: 500;
+    font-size: 17px
+}
+
+/*----------------Intento de decoración--------------------------*/
