@@ -14,14 +14,7 @@
     font-size: 17px;
 }
 
-/*------------------------Id reseña------------------------------*/
-
-#tituloHistoriaResena{
-    color: var(--color-rojo-ppal);
-    text-align: left;
-    font-weight: 500;
-    font-size: 3rem;
-}
+/*---------------------Decoración--------------------------------*/
 
 #tituloHistoriaResena::after{
     content: "";
@@ -81,18 +74,102 @@
     
 }
 
-
 /*-------------------Ids para historia personal------------------*/
+
+#tituloHistoriaResena{
+    color: var(--color-rojo-ppal);
+    text-align: left;
+    font-weight: 500;
+    font-size: 3rem;
+    margin-bottom: 3rem;
+}
+
+div.scroll-banner p{
+    font-size: 1rem;
+}
 
 #tituloHistoriaPersonal{
     color: var(--color-rojo-ppal);
     text-align: right;
     font-weight: 500;
     font-size: 3rem;
+    margin-bottom: 3rem;
 }
 
 #contenidoHistoriaPersonal{
     text-align: right;
+}
+
+/*-----------------Responsive del contenido de la reseña----------*/
+
+@media screen and (max-width: 600px) {
+
+    #tituloHistoriaResena {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    div.scroll-banner p{
+        font-size: .9rem;
+    }
+
+    #tituloHistoriaPersonal{
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    #contenidoHistoriaPersonal{
+        font-size: .9rem;
+    }
+
+    #tituloHistoriaResena::after{
+        content: "";
+        display: block;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background-color: var(--color-naranja-ppal);
+        opacity: 0;
+        position: absolute;
+        top: -68px;
+        left: -53px;
+        overflow: hidden;
+    }
+    
+    #tituloHistoriaResena::before{
+        content: "";
+        display: block;
+        width: 90px;
+        height: 90px;
+        border-radius: 50%;
+        background-color: var(--color-naranja-ppal);
+        opacity: 0;
+        position: absolute;
+        top: -50px;
+        left: -40px;
+        overflow: hidden;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #tituloHistoriaResena {
+        font-size: 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+
+    div.scroll-banner p{
+        font-size: .7rem;
+    }
+
+    #tituloHistoriaPersonal{
+        font-size: 1.2rem;
+        margin-bottom: 1.2rem;
+    }
+
+    #contenidoHistoriaPersonal{
+        font-size: .7rem;
+    }
+
 }
 
 /*-----------Overflow de las cols de historia y reseña---------*/
@@ -202,4 +279,3 @@ footer{
     font-size: 17px
 }
 
-/*----------------Intento de decoración--------------------------*/
