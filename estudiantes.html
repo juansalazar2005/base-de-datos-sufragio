@@ -14,9 +14,8 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap" rel="stylesheet">
-  <!--CSS-->
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="decoracion-index.css">
+  <!--CSS-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
   <!--Logo-->
   <link rel="icon" type="image/png" class="img-fluid w-100" href="img/salesianos-logo.png">
@@ -25,6 +24,8 @@
 </head>
 
 <body class="fuente">
+
+  <!------------------- Hedaer --------------------------->
   <header class="bg-dark">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar">
       <div class="container-fluid">
@@ -45,7 +46,7 @@
               <a class="nav-link" href="maestros.html" target="blank" id="navbar-text">Maestros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="admins.html" target="blank" id="navbar-text">Administrativos</a>
+              <a class="nav-link" href="admins" target="blank" id="navbar-text">Administrativos</a>
             </li>
           </ul>
           <form class="d-flex">
@@ -56,50 +57,50 @@
       </div>
     </nav>
   </header>
-  <main>
-    <video src="video/y2mate.com - Soñamos un mundo mejor_1080p.mp4" autoplay muted loop class="w-100"></video>
+
+  <!------------ Main ----------->
+  <main class="bannerestudiantes">
+    <img src="img/banner-estudiantes.jpg" class="w-100" alt="">
   </main>
-  <section id="section">
-    <div class="flex-container my-5">
-      <div class="row">
-        <div class="col-6 resena scroll-banner">
 
-          <h1 id="tituloHistoriaResena">Reseña histórica</h1>
+  <!------- Section -------->
 
-          <p>
-            Fue un 7 de febrero de 1938... <br>
-            Un regalo de los hijos de Don Bosco y un sueño realizado, hacer vivo el espíritu y el estilo de Don Bosco,
-            iniciar la tarea de la educación, en un ambiente parroquial y familiar de este poblado sector de la ciudad,
-            noble, decente y cristiano por esencia.
-            Nuestro colegio abrió sus puertas con cerca de 113 estudiantes por lo pronto y para ese año los tres
-            primeros grupos de instrucción primaria…todo faltaba y lo había todo: el espíritu de Don Bosco, poderoso,
-            lleno de optimismo y alegría. <br>
-            Continuó el afán de educar y evangelizar, vinieron los directores dinámicos de recia contextura religiosa y
-            moral, semillero de innumerables vocaciones sacerdotales y cada uno ellos, miembros activos de esta
-            comunidad hicieron esfuerzos ingentes hasta llegar a completar la actual obra ejemplarizante, dotada del
-            fervor y de la espiritualidad que imprime la filosofía salesiana.
-          </p>
-          <img src="img/images.jfif" alt="" class="w-100">
+  <section>
+
+    <div class="container-fluid">
+      <div class="row primaria mt-5 text-white">
+        <div class="col-7 imagenPrimaria">
+          <img src="img/primaria.jpg" alt="" class="w-100 mx-auto my-5">
         </div>
-        <div class="col-6 scroll-banner1">
+        <div class="col-5 mx-auto my-5">
 
-          <h1 id="tituloHistoriaPersonal">Mi historia</h1>
+          <h1 class="tituloRojo">Primaria</h1>
 
-          <p id="contenidoHistoriaPersonal">
-            Entré a la institución en el año 2010 para cursar el grado trancisión, y actualmente estoy en el grado 11°,
-            a punto de culminar una de las etapas más importantes en mi desarrollo intelectual, educacional y personal.
-            <br>
-            A lo largo de todos estos años, he desarrolado un cariño especial a la institución, pues gracias a su
-            filosofía, metodologías, y demás, es muy fácil sentirse familiar y cercano al colegio.
+          <p class="contenido">
+            A partir del grado primero se maneja profesorado, esto nos permite que cada docente sea experto en su área,
+            además de enriquecer el crecimiento de los estudiantes, ya que logran encontrarse con diversas metodologías.
+            No te preocupes: Al ingresar a la institución, se hace todo un trabajo gradual para que los niños vayan
+            lentamente incorporándose a la jornada y dinámica académica.
           </p>
-          <img src="img/WhatsApp Image 2022-06-01 at 4.51.27 PM.jpeg" alt="" class="w-100">
         </div>
+      </div>
 
+      <div class="row bachillerato mb-5">
+        <div class="col-7 text-white mb-5">
+          <h1 class="tituloRojo mt-5">Bachillerato</h1>
+
+          <p class="contenido">
+            Nuestro modelo pedagógico integrador favorece el aprendizaje de competencias a partir de las actividades integradoras que se planean desde diferentes áreas, asimilando el conocimiento como un todo. Para nosotros es de gran importancia el fortalecimiento del inglés, por lo tanto, tenemos una intensidad horaria semanal de 4 horas desde 1° a 11° con el apoyo de Richmond Solutions ®
+          </p>
+        </div>
+        <div class="col-5 mx-auto my-5">
+          <img class="w-100 img-fluid" src="img/bachillerato.PNG" alt="">
+        </div>
       </div>
     </div>
   </section>
 
-    <!--Footer-->
+  <!--Footer-->
 
   <footer class="p-5 text-dark text-center scroll-footer">
     <div class="container mt-5">
@@ -108,13 +109,14 @@
           <!--Icono Instagram-->
           <a href="https://www.instagram.com/colsufragio/" target="blank"><button class="botonSociales"><i
                 class="bi bi-instagram"></i></button></a>
-                
+
           <!--Icono Facebook-->
           <a href="https://www.facebook.com/colegiosalesianoelsufragio/" target="blank"><button class="botonSociales"><i
                 class="bi bi-facebook"></i></button></a>
-                
+
           <!--Icono YouTube-->
-          <a href="https://www.youtube.com/channel/UC0v1jTEi88CzyrmN2JZc-kA" target="blank-page"><button class="botonSociales"><i class="bi bi-youtube"></i></button></a>
+          <a href="https://www.youtube.com/channel/UC0v1jTEi88CzyrmN2JZc-kA" target="blank-page"><button
+              class="botonSociales"><i class="bi bi-youtube"></i></button></a>
         </div>
         <div class="col-4">
           <p>&copy; Todos los derechos reservados</p>
@@ -129,8 +131,8 @@
       </div>
     </div>
   </footer>
-  
-<!--SCRIPTS-->
+
+  <!--SCRIPTS-->
   <script src="js/index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"

@@ -22,3 +22,15 @@ window.sr =ScrollReveal();
         distance: '200px',
         delay: 500,
     });
+
+    sr.reveal('.row.primaria', {
+        duration: 1300,
+        origin: 'left',
+        distance: '-500px',
+    });
+
+    sr.reveal('.row.bachillerato', {
+        duration: 1300,
+        origin: 'right',
+        distance: '-500px',
+    });
