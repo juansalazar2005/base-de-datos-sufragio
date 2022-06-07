@@ -34,3 +34,17 @@ window.sr =ScrollReveal();
         origin: 'right',
         distance: '-500px',
     });
+
+    sr.reveal('div.col-6.p-5.bordeRegistro', {
+        duration: 1400,
+        // origin: 'left',
+        // distance: '-50px',
+        opacity: 0
+    });
+
+    sr.reveal('main', {
+        duration: 1400,
+        // origin: 'left',
+        // distance: '-50px',
+        opacity: 0
+    });

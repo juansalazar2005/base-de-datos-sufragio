@@ -242,3 +242,162 @@ footer{
 .primaria {
     background-color: var(--color-naranja-ppal);
 }
+
+/* ---- Botón registro ----- */
+
+.btnRegistro {
+    background: transparent;
+    margin-bottom: 3rem;
+    width: 5px;
+    height: 1px;
+    background: linear-gradient(to left, transparent 50%, var(--color-rojo-ppal) 50%);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200%;
+    text-decoration: none;
+    border-width: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-color: var(--color-rojo-ppal);
+    border-style: solid;
+    padding: 2% 6% 4.5% 6%;
+    border-radius: 15px;
+    color: black;
+    font-size: 20px;
+    transition: linear .12s;
+}
+
+.btnRegistro:hover {
+    background-position: left;
+    transition: ease-in-out .12s;
+    color: white;
+    font-weight: 500;
+}
+
+/* --- Borde registro --- */
+
+div.bordeRegistro {
+    border: 2px solid #fc5656;
+    border-radius: 10px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+/* --- Boton Registro formulario */
+
+.btnRegistroForm {
+    background: transparent;
+    /* margin-top: 50rem; */
+    /* width: 5px;
+    height: 1px; */
+    background: linear-gradient(to left, var(--color-rojo-ppal) 50%, var(--color-dark-ppal) 50%);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200%;
+    text-decoration: none;
+    border-width: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-color: var(--color-rojo-ppal);
+    border-style: solid;
+    padding: 2% 6% 2% 6%;
+    border-radius: 15px;
+    color: white;
+    font-size: 1rem;
+    transition: linear .12s;
+}
+
+.btnRegistroForm:hover {
+    background-position: left;
+    transition: ease-in-out .12s;
+    color: white;
+    font-weight: 500;
+    border-color: var(--color-dark-ppal);
+}
+
+/* --- p Experiencia bto --- */
+
+.experienciaBto {
+    font-size: 1rem;
+    text-align: justify;
+}
+.tituloBto {
+    font-size: 2.6rem;
+    color: var(--color-rojo-ppal);
+}
+
+.tituloBto2 {
+    font-size: 1.9rem;
+    margin-top: 105px;
+}
+
+/* --- btn registro 2 --- */
+
+.btnRegistro2 {
+    background: transparent;
+    margin: 3rem;
+    width: 5px;
+    height: 1px;
+    background: linear-gradient(to left, transparent 50%, var(--color-rojo-ppal) 50%);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200%;
+    text-decoration: none;
+    border-width: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-color: var(--color-rojo-ppal);
+    border-style: solid;
+    padding: 1% 6% 3.5% 6%;
+    border-radius: 15px;
+    color: black;
+    font-size: 1.2rem;
+    transition: linear .12s;
+}
+
+.btnRegistro2:hover {
+    background-position: left;
+    transition: ease-in-out .12s;
+    color: white;
+    font-weight: 500;
+}
+
+/* --- btn registro formulario 2 --- */
+
+.btnRegistroForm2 {
+    background: transparent;
+    /* margin-top: 50rem; */
+    /* width: 5px;
+    height: 1px; */
+    background: linear-gradient(to left, var(--color-rojo-ppal) 50%, var(--color-dark-ppal) 50%);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 200%;
+    text-decoration: none;
+    border-width: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    border-color: var(--color-rojo-ppal);
+    border-style: solid;
+    padding: 2% 6% 2% 6%;
+    border-radius: 15px;
+    color: white;
+    font-size: 1rem;
+    transition: linear .12s;
+}
+
+.btnRegistroForm2:hover {
+    background-position: left;
+    transition: ease-in-out .12s;
+    color: white;
+    font-weight: 500;
+    border-color: var(--color-dark-ppal);
+}
