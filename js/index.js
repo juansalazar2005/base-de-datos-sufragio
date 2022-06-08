@@ -48,3 +48,17 @@ window.sr =ScrollReveal();
         // distance: '-50px',
         opacity: 0
     });
+
+    sr.reveal('img.w-100.img-fluid.imagen1', {
+        duration: 1400,
+        origin: 'right',
+        distance: '-50px',
+        opacity: 0
+    })
+
+    sr.reveal('img.w-100.img-fluid.imagen2', {
+        duration: 1400,
+        origin: 'top',
+        distance: '-50px',
+        opacity: 0
+    })
